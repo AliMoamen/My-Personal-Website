@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: grey;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 2rem;
+}
+
+
+
+hr{
+  border: dotted;
+  border-bottom: hidden;
+  width: 5%;
+  border-width: 10px;
+  margin-bottom: 60px;
+  margin-top: 100px;
+  color: #EAF6F6;
+}
+
+/****************************Class Selector************************/
+.first-container {
+  background-color: #d4f8e8;
+  margin: 0;
+}
+
+.cloud-bottom {
+  position: absolute;
+}
+
+.cloud-top {
+  position: relative;
+  left: 250px;
+  top: 30px;
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-img2 {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container{
+  margin-top: 100px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  width: 100%;
+  height: 150px;
+}
+
+.copyright{
+  position: relative;
+  top: 50px;
+  color: #EAF6F6;
+}
+
+
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    margin: 60PX;
+    position: relative;
+    top: 50px;
+
+}
+
+.contactme{
+  text-decoration: none;
+}
+.contact-me{
+  margin: 60px;
+  line-height: 2;
+  padding-bottom: 30px;
+
+}
+
+
+.btn{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #005eff 5%, #006ef5 100%);
+	background-color:#005eff;
+	border-radius:33px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:17px 46px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #006ef5 5%, #005eff 100%);
+	background-color:#006ef5;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
